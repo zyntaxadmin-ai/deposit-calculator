@@ -10,12 +10,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="css/styles.css?v=3">
+<link rel="stylesheet" href="css/styles.css?v=4">
 <script defer src="data/states.js?v=1"></script>
 <script defer src="js/utils.js?v=1"></script>
 <script defer src="js/calculator.js?v=1"></script>
 <script defer src="js/ui.js?v=2"></script>
 <script defer src="js/app.js?v=2"></script>
+<script defer src="js/consent.js?v=1"></script>
 </head>
 <body>
 <noscript><p class="wrap" style="padding:16px;background:#FEF3C7">JavaScript is required for the calculator. Please enable it and reload this page.</p></noscript>
@@ -76,7 +77,10 @@
 <div class="faq"><h3><button type="button" id="q6" aria-expanded="false" aria-controls="a6">Are these penalty numbers guaranteed?<i></i></button></h3><div class="ans" id="a6" role="region" aria-labelledby="q6"><div><p>No. They are upper-end estimates. Courts decide what is awarded, and bad faith is often required. Check your state's statute.</p></div></div></div>
 </div></section>
 </main>
-<footer><div class="wrap"><p class="disc">This tool provides general information and estimates only, not legal advice. Laws change and have exceptions. Verify with your state's official statutes or a licensed attorney.</p><p>Privacy: nothing you enter is stored or sent anywhere. All calculations happen in your browser.</p><p>© 2026 Security Deposit Return Calculator</p></div></footer>
+<footer><div class="wrap"><p class="disc">This tool provides general information and estimates only, not legal advice. Laws change and have exceptions. Verify with your state's official statutes or a licensed attorney.</p>
+<p class="flinks"><a href="/about">About</a> <a href="/contact">Contact</a> <a href="/privacy">Privacy Policy</a> <a href="/terms">Terms &amp; Conditions</a> <a href="/disclaimer">Disclaimer</a> <a href="/cookies">Cookie Policy</a> <a href="#" data-cookie-settings>Cookie settings</a></p>
+<p>Your calculator answers stay in your browser and are never sent to us. See our <a href="/privacy">Privacy Policy</a> for how analytics and advertising cookies work.</p>
+<p>&copy; 2026 Security Deposit Return Calculator. Operated by ROHAN.</p></div></footer>
 
 <dialog id="resDlg" aria-labelledby="resT"><div class="dlg-h"><h2 id="resT">Your result</h2><button type="button" class="ic" data-act="close" aria-label="Close">×</button></div><div class="dlg-b" id="resBody"></div>
 <div class="dlg-f"><button type="button" class="btn" data-act="letter">Generate Demand Letter</button><button type="button" class="btn sec" data-act="copy">Copy summary</button><button type="button" class="btn sec" data-act="print">Print / Save as PDF</button><button type="button" class="btn sec" data-act="edit">Edit answers</button><button type="button" class="btn sec" data-act="close">Close</button></div></dialog>

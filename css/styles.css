@@ -163,9 +163,27 @@ textarea{font:14px/1.5 ui-monospace,Menlo,Consolas,monospace;min-height:320px;re
 .toast button{background:none;border:0;color:var(--soft);font:inherit;font-weight:700;min-height:36px;padding:0 6px;cursor:pointer}.toast.out{animation:tout .25s forwards}
 @keyframes tin{from{opacity:0;transform:translateY(16px)}}@keyframes tout{to{opacity:0;transform:translateY(16px)}}
 
+.btn.sm{min-height:40px;padding:0 16px;font-size:.88rem}
+.flinks{display:flex;flex-wrap:wrap;gap:0 4px;margin:0 0 12px}.flinks a{display:inline-flex;align-items:center;min-height:40px;padding:0 8px;margin-left:-8px;color:var(--deep);font-weight:600;text-decoration:none}.flinks a:hover{text-decoration:underline}
+footer a{color:var(--deep)}
+.legal{padding:28px 0 56px}.legal .wrap{max-width:760px}
+.legal h1{font-size:clamp(1.7rem,5vw,2.4rem);margin-bottom:.3em}.legal .upd{color:var(--mut);font-size:.9rem;margin:0 0 20px}
+.legal h2{font-size:1.2rem;margin:1.8em 0 .5em}.legal p,.legal li{color:#334155}.legal li{margin-bottom:.4em}.legal a{color:var(--deep)}
+.legal .lead{font-size:1.1rem;color:var(--ink)}
+.legal .cardbox{background:var(--ice);border:1px solid #bae6fd;border-radius:18px;padding:18px 20px;margin:20px 0}.legal .cardbox h2{margin-top:0}.legal .cardbox p{margin:.4em 0}
+.legal .big{font-size:1.15rem;font-weight:800;word-break:break-all}
+.legal .btn,.legal .btn:visited{color:#fff;text-decoration:none}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:12px 0;border:1px solid #e0f2fe;border-radius:14px}
+.tbl{width:100%;min-width:560px;border-collapse:collapse;font-size:.9rem}.tbl th,.tbl td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid #e0f2fe}.tbl th{background:var(--ice);font-weight:700}.tbl tr:last-child td{border-bottom:0}
+.tbl code{font-size:.85em;background:var(--ice);padding:1px 6px;border-radius:6px;word-break:break-all}
+.cb{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:55;max-width:620px;margin-inline:auto;background:#fff;border:1px solid #bae6fd;border-radius:18px;padding:16px;box-shadow:0 18px 50px rgba(15,23,42,.28);animation:cbin .45s var(--ease)}
+.cb p{margin:0 0 12px;font-size:.9rem;color:var(--mut);line-height:1.5}.cb strong{color:var(--ink)}.cb a{color:var(--deep)}
+.cb-a{display:flex;gap:10px}.cb-a .btn{flex:1;min-height:46px;padding:0 14px;font-size:.95rem}
+.cb.out{animation:cbout .3s forwards}
+@keyframes cbin{from{opacity:0;transform:translateY(24px)}}@keyframes cbout{to{opacity:0;transform:translateY(24px)}}
 @media(prefers-reduced-motion:reduce){*,::before,::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 @media print{
- body>*{display:none!important}.totop,.tip{display:none!important}
+ body>*{display:none!important}.totop,.tip,.cb{display:none!important}
  body[data-print=result]>#resDlg,body[data-print=letter]>#letDlg{display:block!important;position:static;width:100%;max-height:none;box-shadow:none;animation:none;color:#000;background:#fff}
  .dlg-f,.ic{display:none!important}.dlg-b{overflow:visible}.cell,.notes li{break-inside:avoid}
  body[data-print=letter] #letTa,body[data-print=letter] .lf,body[data-print=letter] #letNote{display:none}
