@@ -181,6 +181,29 @@ footer a{color:var(--deep)}
 .cb-a{display:flex;gap:10px}.cb-a .btn{flex:1;min-height:46px;padding:0 14px;font-size:.95rem}
 .cb.out{animation:cbout .3s forwards}
 @keyframes cbin{from{opacity:0;transform:translateY(24px)}}@keyframes cbout{to{opacity:0;transform:translateY(24px)}}
+.lnav{display:flex;align-items:center;gap:6px}.lnav .lg{display:inline-flex;align-items:center;min-height:44px;padding:0 10px;border-radius:10px;color:var(--mut);font-weight:600;font-size:.9rem;text-decoration:none}.lnav .lg:hover{color:var(--deep)}
+.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-bottom:14px;font-size:.85rem;color:var(--mut)}.crumbs a{color:var(--mut);text-decoration:none}.crumbs a:hover{text-decoration:underline}.crumbs span[aria-hidden]{opacity:.5}
+.kicker{display:inline-block;margin:0 0 10px;padding:4px 12px;border-radius:99px;background:var(--ice);color:var(--deep);font-size:.76rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.legal .deck{margin:0 0 10px;font-size:1.15rem;line-height:1.6;color:#334155}.legal .meta{margin:0 0 22px;font-size:.85rem;color:var(--mut)}
+.takeaways{margin:0 0 22px;padding:16px 20px;border:1px solid #bae6fd;border-left:5px solid var(--sky);border-radius:16px;background:linear-gradient(180deg,var(--ice),#fff)}
+.legal .takeaways h2{margin:0 0 8px;font-size:1.05rem}.takeaways ul{margin:0;padding-left:20px}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0 0 26px}
+.fact{padding:12px 14px;border:1px solid #bae6fd;border-radius:14px;background:#fff}.fact small{display:block;font-size:.72rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--mut)}.fact b{display:block;margin-top:2px;font-size:1rem;line-height:1.3;color:var(--deep)}
+.co{margin:22px 0;padding:14px 16px;border-radius:14px}.co b{display:block;margin-bottom:2px}.legal .co p{margin:0}
+.co-tip{background:#E0F2FE;border:1px solid var(--soft)}.co-warn{background:var(--warnb);border:1px solid #FCD34D}.co-warn b,.legal .co-warn p{color:#78350F}
+.sample{margin:14px 0;padding:14px 18px;border:1px dashed #94a3b8;border-radius:14px;background:#fff;font-size:.95rem}.sample p{margin:.5em 0}
+.cta{margin:32px 0;padding:22px;border:1px solid var(--soft);border-radius:20px;background:linear-gradient(135deg,#E0F2FE,#F0F8FF);text-align:center}.legal .cta h2{margin:0 0 6px}.legal .cta p{max-width:48ch;margin:0 auto 14px}
+.qa{margin-bottom:8px;border:1px solid #e0f2fe;border-radius:14px;background:#fff}.qa summary{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:48px;padding:12px 16px;font-weight:700;cursor:pointer;list-style:none}.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:"+";flex:none;font-size:1.4rem;line-height:1;color:var(--deep);transition:transform .25s var(--ease)}.qa[open] summary::after{transform:rotate(45deg)}.legal .qa p{margin:0;padding:0 16px 14px}
+.srcs{padding-left:20px}.srcs a{word-break:break-word}
+.rel,.gg{display:grid;grid-template-columns:1fr;gap:12px}
+.rc,.gc{display:flex;flex-direction:column;gap:4px;padding:16px;border:1px solid #bae6fd;border-radius:16px;background:#fff;color:var(--ink)!important;text-decoration:none;transition:transform .25s var(--ease),box-shadow .25s,border-color .25s}
+.rc:hover,.gc:hover{transform:translateY(-3px);border-color:var(--sky);box-shadow:0 12px 28px rgba(2,132,199,.14)}
+.rc small,.gc small{font-size:.7rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--deep)}.rc b,.gc b{font-size:1rem;line-height:1.3}.gc span{font-size:.9rem;color:var(--mut)}
+.gc i{margin-top:auto;padding-top:6px;font-size:.9rem;font-style:normal;font-weight:700;color:var(--deep)}
+.art-disc{margin-top:28px}.small{font-size:.82rem;color:var(--mut)}
+@media(min-width:640px){.facts{grid-template-columns:repeat(4,1fr)}.rel{grid-template-columns:repeat(3,1fr)}.gg{grid-template-columns:repeat(2,1fr)}}
+.gsec{padding:56px 0 8px}.gsec .more{margin-top:16px;font-weight:700}.gsec .more a{color:var(--deep)}
 @media(prefers-reduced-motion:reduce){*,::before,::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 @media print{
  body>*{display:none!important}.totop,.tip,.cb{display:none!important}

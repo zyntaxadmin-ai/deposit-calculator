@@ -68,6 +68,9 @@ $$(".rv").forEach(function(el){io.observe(el)});
 var links=$$(".nav nav a"),so=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting)links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+x.target.id)})})},{rootMargin:"-45% 0px -50% 0px"});
 ["calculator","how","faq"].forEach(function(id){so.observe(document.getElementById(id))});
 
+/* guide pages link here with ?state=XX to preselect the state */
+try{var qs=new URLSearchParams(location.search).get("state");if(qs&&/^[A-Za-z]{2}$/.test(qs))combo.set(qs.toUpperCase())}catch(e){}
+
 /* hamburger menu (phones) */
 var hd=$("#nav"),bg=$("#burger");
 function menu(on){hd.classList.toggle("open",on);bg.setAttribute("aria-expanded",String(on));bg.setAttribute("aria-label",on?"Close menu":"Open menu")}

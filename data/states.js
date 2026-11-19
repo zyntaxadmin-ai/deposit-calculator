@@ -54,7 +54,7 @@ var ROWS=[
 ["UT","Utah",30,0,100,"Utah Code § 57-17-3",1,"","A fixed $100 penalty may apply if late."],
 ["VT","Vermont",14,2,0,"9 V.S.A. § 4461",0,"l","A late landlord forfeits the right to withhold; willful: 2×."],
 ["VA","Virginia",45,0,0,"Va. Code § 55.1-1226",1,"","Itemized list due within 45 days."],
-["WA","Washington",21,2,0,"Wash. Rev. Code § 59.18.280",0,"fl","Written forwarding address needed. A late landlord may lose the right to withhold."],
+["WA","Washington",30,2,0,"Wash. Rev. Code § 59.18.280",0,"l","30 days to mail a written statement and any refund. A late landlord owes the full deposit and loses the right to claim deductions; up to 2× if refusal was intentional."],
 ["WV","West Virginia",60,2,0,"W. Va. Code § 37-6A-2",1,"","60 days, or 45 days after a new tenant moves in, whichever is first."],
 ["WI","Wisconsin",21,2,0,"Wis. Admin. Code ATCP § 134.06",0,"","Wrongful withholding can mean 2× plus fees (Wis. Stat. § 100.20)."],
 ["WY","Wyoming",30,0,0,"Wyo. Stat. § 1-21-1208",1,"f","30 days, or 60 days if damages are claimed."]];
