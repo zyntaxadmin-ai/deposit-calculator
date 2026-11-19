@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://deposit-calculator-delta.vercel.app/sitemap.xml
+Sitemap: https://security-deposit-calculator.cyou/sitemap.xml
