@@ -3,7 +3,7 @@
      GA_ID  = GA4 measurement ID, like "G-XXXXXXXXXX"
      ADS_ID = AdSense publisher ID, like "ca-pub-1234567890123456" */
 (function(){
-var GA_ID="",ADS_ID="",KEY="dd-consent";
+var GA_ID="",ADS_ID="ca-pub-9893214086578384",KEY="dd-consent";
 function get(){try{return localStorage.getItem(KEY)}catch(e){return null}}
 function set(v){try{localStorage.setItem(KEY,v)}catch(e){}}
 var loaded=false;
