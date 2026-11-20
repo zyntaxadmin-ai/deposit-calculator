@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://security-deposit-calculator.cyou/sitemap.xml
+Sitemap: https://www.securitydepositdeadline.bond/sitemap.xml
